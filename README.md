@@ -1,2 +1,2 @@
 # Contrastive-3D-Medical-Search
-Using Contrastive Learning with Axial 3D Vision Transformers to create a Medical Search Engine for Similar Scans
+Finding similar patients in 3D CT scans using a self-supervised Axial Attention Transformer.
