@@ -1,0 +1,35 @@
+name: contrastiveSearch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - optuna
+  - ipykernel
+  - torchmetrics
+  - scikit-learn
+  - hydra-core
+  - omegaconf
+  - streamlit
+  - monai
+  - seaborn
+  - plotly
+  - umap-learn
+  - pydicom
+  - nibabel
+  - black
+  - ruff
+  - simpleitk
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch>=2.7.0
+      - torchvision
+      - ray[air]
+      - wandb
+
+
+      #include faiss later 
